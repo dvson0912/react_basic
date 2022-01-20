@@ -1,10 +1,12 @@
 import logo from "./logo.svg";
 import "./App.scss";
+import MyComponent from "./myComponents";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <MyComponent />
         <img src={logo} className="App-logo" alt="logo" />
         <p>sơn Đào</p>
         <a
